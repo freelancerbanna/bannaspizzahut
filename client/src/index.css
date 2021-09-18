@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a{
+  color: inherit;
+}
+.ml-auto{
+  margin-left: auto;
+}
+a{
+  color: rgb(15, 42, 65) !important;
+  text-decoration: none!important;
+}
+.flex-container{
+  display: flex;
+}
+
+.header-container {
+    height: 110px;
+}
+.image-container {
+  height: 230px;
+  overflow: hidden;
+}
+.btn{
+  background-color: tomato!important;
+  color: white!important;
+}
+.form input{
+  margin-top: 20px;
+  box-shadow: none;
+  outline: none;
+  
+}
+.form button{
+  margin-top: 15px;
+}
+.dropdown{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5px;
+}
+.dropdownMenu {
+  position: absolute;
+  background: white;
+  top: 40px;
+  right: -35px;
+  display: none;
+}
+.dropdownMenu.active{
+display: block;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.dropdown>div:first-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown>div>span {
+  margin-left: 5px;
+}
+ul.adminList {
+  list-style: none;
+  display: flex;
+  font-size: 28px;
+  background: tomato;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  padding: 10px;
+  align-items: center;
+  margin-top: 15px;
+}
+ul.adminList>li>a {
+  display: flex;
+  align-items: center;
+  color: white !important;
+}
